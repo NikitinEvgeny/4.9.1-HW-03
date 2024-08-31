@@ -1,0 +1,64 @@
+
+
+
+body {
+background-color: #F7E3D6;
+background-image:url("../images/fon.jpg");
+background-position: center;
+background-repeat: repeat;
+font-family: "Pacifico", cursive;
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+/*.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }*/
+
+
+.menu { 
+list-style-type: none;  
+text-align: right;
+font-size: 25px;
+}
+
+.menu li {
+display: inline-block;
+margin-left: 10px;
+margin: 10px 10px 20px 10px;
+}
+
+.menu a {
+ text-decoration: none;
+ color: rgb(34, 32, 32); 
+         
+}
+
+.menu a:hover {
+    color: rgb(128, 126, 126);   
+}
+
+
+
+/*.main {
+    
+    }*/
+
+.main  h1 {
+        text-align: center;
+    }
+    
+.main img{
+    width: 350px;
+    height: 700pxpx;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+  

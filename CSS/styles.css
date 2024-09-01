@@ -6,19 +6,19 @@ background-color: #F7E3D6;
 background-image:url("../images/fon.jpg");
 background-position: center;
 background-repeat: repeat;
-font-family: "Pacifico", cursive;
-font-weight: 400;
-font-style: normal;
 }
 
 
 
-/*.pacifico-regular {
+h2 {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-  }*/
+}
 
+p {
+    font-size: 19px;
+}
 
 .menu { 
 list-style-type: none;  
@@ -30,6 +30,9 @@ font-size: 25px;
 display: inline-block;
 margin-left: 10px;
 margin: 10px 10px 20px 10px;
+font-family: "Pacifico", cursive;
+font-weight: 400;
+font-style: normal;
 }
 
 .menu a {
@@ -50,6 +53,9 @@ margin: 10px 10px 20px 10px;
 
 .main  h1 {
         text-align: center;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
     }
     
 .main img{

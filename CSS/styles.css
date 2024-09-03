@@ -3,15 +3,18 @@ background-color: #F7E3D6;
 background-image:url("../images/fon.jpg");
 background-position: center;
 background-repeat: repeat;
-
-/**********************/
 margin: 0;
 display: table;
 min-height: 100vh;
 width: 100%;
 }
 
-
+h1 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
 h2 {
     font-family: "Pacifico", cursive;
@@ -21,9 +24,19 @@ h2 {
 
 
 p {
-
     margin-left: 20px;
     }
+
+
+ a {
+        text-decoration: none;
+        color: rgb(34, 32, 32);
+    }
+    
+a:hover {
+        color: rgb(128, 126, 126);   
+    }
+    
 
     
 .menu { 
@@ -31,8 +44,6 @@ p {
 list-style-type: none;  
 text-align: right;
 font-size: 25px;
-
-
 }
 
 .menu li {
@@ -44,33 +55,15 @@ font-weight: 400;
 font-style: normal;
 }
 
-.menu a {
- text-decoration: none;
- color: rgb(34, 32, 32); 
-         
-}
-
-.menu a:hover {
-    color: rgb(128, 126, 126);   
-}
-
-
-
 .main {
     
     font-size: 19px;
 margin-bottom: 10px;
 display: table-row;
 height: 100%;
-
 }
 
-.main  h1 {
-        text-align: center;
-        font-family: "Pacifico", cursive;
-        font-weight: 400;
-        font-style: normal;
-    }
+ 
     
 .main img{
     width: 390px;
@@ -78,8 +71,7 @@ height: 100%;
     border-radius: 20px;
     float: left;
     margin-right: 20px;
-    margin-left: 50px;
-    
+    margin-left: 50px;  
 }
 
 .main ul {
@@ -93,9 +85,7 @@ height: 100%;
     font-size: 19px;
     text-align: right;
     width: 98%;
-    
 }
-
 
 .footer span {
     font-family: "Pacifico", cursive;
@@ -105,12 +95,5 @@ height: 100%;
 
 
 
-footer a {
-color: black;
-}
 
-footer a:hover {
-    color: rgb(128, 126, 126);   
-}
 
-  

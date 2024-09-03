@@ -1,11 +1,14 @@
-
-
-
 body {
 background-color: #F7E3D6;
 background-image:url("../images/fon.jpg");
 background-position: center;
 background-repeat: repeat;
+
+/**********************/
+margin: 0;
+display: table;
+min-height: 100vh;
+width: 100%;
 }
 
 
@@ -16,10 +19,20 @@ h2 {
     font-style: normal;
 }
 
+
+p {
+
+    margin-left: 20px;
+    }
+
+    
 .menu { 
+     margin-right: 2%;
 list-style-type: none;  
 text-align: right;
 font-size: 25px;
+
+
 }
 
 .menu li {
@@ -46,6 +59,9 @@ font-style: normal;
 .main {
     
     font-size: 19px;
+margin-bottom: 10px;
+display: table-row;
+height: 100%;
 
 }
 
@@ -57,26 +73,26 @@ font-style: normal;
     }
     
 .main img{
-    width: 350px;
-    height: 700pxpx;
+    width: 390px;
+    height: 550px;
     border-radius: 20px;
     float: left;
     margin-right: 20px;
+    margin-left: 50px;
     
 }
 
 .main ul {
     list-style-type:  none;
-
     margin-bottom: 10px; 
     margin-top: 10px;
 
 }
 
 .footer {
-    margin-top: 15px;
     font-size: 19px;
     text-align: right;
+    width: 98%;
     
 }
 
@@ -85,6 +101,16 @@ font-style: normal;
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+
+
+footer a {
+color: black;
+}
+
+footer a:hover {
+    color: rgb(128, 126, 126);   
 }
 
   
